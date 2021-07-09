@@ -23,8 +23,8 @@ spring:
     activate:
       on-profile: docker
   zipkin:
-    baseUrl: http://tracing-server:9411
+    baseUrl: http://20.85.43.136:9411
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://discovery-server:8761/eureka/
+      defaultZone: http://20.85.43.136:8761/eureka/
