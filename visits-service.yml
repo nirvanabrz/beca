@@ -11,10 +11,10 @@ spring:
     activate:
       on-profile: docker
   zipkin:
-    baseUrl: http://20.85.43.136:9411
+    baseUrl: http://10.0.192.87:9411
 server:
   port: 8082
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://20.85.43.136:8761/eureka/
+      defaultZone: http://10.0.124.232:8761/eureka/
