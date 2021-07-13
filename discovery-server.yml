@@ -9,7 +9,8 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://discovery-server:8761/eureka/
       #defaultZone: http://20.85.43.136:${server.port}/eureka/
       #defaultZone: http://10.0.124.232:${server.port}/eureka/
 
