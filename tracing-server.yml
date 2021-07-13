@@ -18,4 +18,5 @@ eureka:
   client:
     serviceUrl:
       #defaultZone: http://20.85.43.136:8761/eureka/
-      defaultZone: http://10.0.124.232:8761/eureka/
+      #defaultZone: http://10.0.124.232:8761/eureka/
+      defaultZone: http://discovery-server:8761/eureka/
