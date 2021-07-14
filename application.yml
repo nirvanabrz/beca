@@ -87,4 +87,4 @@ spring:
 eureka:
   instance:
     #instance-id: ${spring.application.name}
-    instance-id: ${server.address}
+    instance-id: ${DISCOVERY_SERVER_SERVICE_HOST}
