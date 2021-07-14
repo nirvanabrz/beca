@@ -88,4 +88,4 @@ eureka:
   instance:
     #instance-id: ${spring.application.name}
     #instance-id: ${DISCOVERY_SERVER_SERVICE_HOST}
-    instance-id: http://${eureka.instance.hostname}:${server.port}
+    instance-id: 10.0.124.232
